@@ -1,3 +1,4 @@
-import { creareElement }  from "./createElement";
+import createElement  from "./createElement";
+import render from "./render";
 
-export { creareElement};
+export { createElement,render };

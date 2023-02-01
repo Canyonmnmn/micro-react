@@ -1,11 +1,12 @@
 /*
- * @Description: 
+ * @Description:
  * @Author: jianguo
  * @Date: 2023-01-30 21:03:04
  * @LastEditors: jianguo
- * @LastEditTime: 2023-01-30 21:22:03
+ * @LastEditTime: 2023-02-01 09:59:14
  */
-export function creareElement(type,props,...children){
+
+function createElement(type,props,...children){
     return {
         type,
         props:{
@@ -24,3 +25,5 @@ function createTextElement(text){
         }
     }
 }
+
+export default createElement
